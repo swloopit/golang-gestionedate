@@ -38,4 +38,5 @@ func ConvertiNumeroGiornoInGiornoSettimana(giorno int) string{
 	case 6:
 		return "SABATO"
 	}
+	return "IMPOSSIBLE"
 }
