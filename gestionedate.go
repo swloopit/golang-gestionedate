@@ -25,23 +25,17 @@ func ConvertiNumeroGiornoInGiornoSettimana(giorno int) string{
 	switch giorno {
 	case 0:
 		return "DOMENICA"
-	}
 	case 1:
 		return "LUNEDÌ"
-	}
 	case 2:
 		return "MARTEDÌ"
-	}
-case 3:
+	case 3:
 		return "MERCOLEDÌ"
-	}
-case 4:
+	case 4:
 		return "GIOVEDÌ"
-	}
-case 5:
+	case 5:
 		return "VENERDÌ"
-	}
-case 6:
+	case 6:
 		return "SABATO"
 	}
 }
