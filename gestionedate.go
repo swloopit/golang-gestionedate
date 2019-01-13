@@ -20,3 +20,28 @@ func OttieniGiorniDellaSettimana(anno,mese,giorno int) int{
 	d:=time.Date(anno,time.Month(mese),giorno,20,0,0,0,time.UTC)
 	return int(d.Weekday())
 }
+
+func ConvertiNumeroGiornoInGiornoSettimana(giorno int) string{
+	switch giorno {
+	case 0:
+		return "DOMENICA"
+	}
+	case 1:
+		return "LUNEDÌ"
+	}
+	case 2:
+		return "MARTEDÌ"
+	}
+case 3:
+		return "MERCOLEDÌ"
+	}
+case 4:
+		return "GIOVEDÌ"
+	}
+case 5:
+		return "VENERDÌ"
+	}
+case 6:
+		return "SABATO"
+	}
+}
