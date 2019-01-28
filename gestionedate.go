@@ -40,3 +40,12 @@ func ConvertiNumeroGiornoInGiornoSettimana(giorno int) string{
 	}
 	return "IMPOSSIBLE"
 }
+/*
+func CostruisciRangeDateDatoAnnoMese(inizio_mese,inizio_anno,fine_mese,fine_anno int) string{
+	var s string
+	var numero_giorni int
+	for inizio_anno;inizio_anno<=fine_anno;inizio_anno++ {
+		for inizio_mese;inizio
+		numero_giorni=OttieniNumeroDiGiorniInUnMese(inizio_anno,)
+	}
+}*/
